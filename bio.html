@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,700" rel="stylesheet">
+</head>
+
+<body id="bio-body">
+
+    <header>
+        <span id="menubutton" onclick="openNav()">&#9776;</span>
+        <div id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+                <nav>
+                    <div class="menu-branding">
+                        <div class="portrait"></div>
+                    </div>
+                    <ul class="menu-nav">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bio.html" class="nav-link">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mywork.html" class="nav-link">My work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contactform.html" class="nav-link">How to reach me</a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+        </div>
+
+
+    </header>
+
+    <main id="home">
+        <div>
+            <img id="profielfoto" src="assets/profielfoto.JPG">
+        </div>
+        <div>
+            <h1>Even <span class="yellow">voorstellen...</span></h1>
+            <h2><span class="yellow">Bio</span></h2>
+            <p>Welkom op mijn site! Onlangs heb ik besloten om de overstap te maken de naar webdevelopment. Om die reden, heb ik
+            besloten mee te doen aan de bootcamp van CodeGorilla. Voordat ik aan deze bootcamp begon, ben ik 15 jaar in de
+            ouderenzorg werkzaam geweest. Ik heb mijn werk altijd met veel passie, toewijding en inzet gedaan. </p>
+            
+            <p>Deze eigenschappen laat ik ook naar voren komen in mijn websites.
+                Nu staat er nog niet zoveel op de website, maar daar komt natuurlijk snel verandering in!</p>
+            
+            <p>In mijn vrije tijd mag ik graag fietsen, lezen, series/ films kijken en gamen.</p>
+        </div><br>
+        <h2 id="skills-title"><span class="yellow">Skills</span></h2><br>
+        <div id="progress-bars">
+            <ul>
+                <li>HTML<br>
+                    <progress class="progress" min="0" max="100" value="60"></progress>
+                </li>
+                <li>CSS<br>
+                    <progress class="progress" min="0" max="100" value="50"></progress>
+                </li>
+                <li>Javascript<br>
+                    <progress class="progress" min="0" max="100" value="25"></progress>
+                </li>
+
+            </ul>
+        </div>
+       
+    </main>
+     <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+     <script src="scripts/portfolio.js"></script>
+</body>
+
+</html>
