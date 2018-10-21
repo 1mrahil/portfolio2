@@ -48,7 +48,7 @@ body {
 
 #bio-body {
   margin: 5% 5% 10% 5%; 
-  max-width: 90%;
+  max-width: 85%;
 }
 
 progress {
@@ -345,3 +345,4 @@ footer a:hover {
   align-items: flex-end; 
   justify-content: center;
 }
+
